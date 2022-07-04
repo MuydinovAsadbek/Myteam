@@ -2,7 +2,7 @@
   --white: #fff;
   --coral:#F67E7E;
   --primary:#79C8C7;
-  --dark-blue:#012F34;
+  --dark-blue:#014E56;
 }
 
 /* GLOBAL */
@@ -119,4 +119,68 @@ body {
 .header__bnt {
   color: var(--white);
   border: 2px solid var(--white);
+}
+
+
+/* MAIN-CONTENT */
+.main-content {
+  flex-grow: 1;
+}
+
+
+/* HERO */
+.hero {
+  padding-top: 56px;
+  background-image: url("../img/dick-img.svg");
+  background-repeat: no-repeat;
+  background-position:calc(50% + -700px) 53px;
+}
+
+.hero__container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  padding-bottom: 250px;
+  background-image: url("../img/hero-circle_img.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 375px) 370px;
+}
+
+.hero__title-wrapper {
+  width: 635px;
+  margin-right: 5px;
+}
+
+.hero__title {
+  display: inline-block;
+  margin: 0;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 100px;
+  color: var(--white);
+}
+
+.hero__title b {
+  color: var(--coral);
+}
+
+.hero__text-wrapper {
+  width: 445px;
+}
+
+.hero__line {
+  display: inline-block;
+  margin: 0;
+  width: 50px;
+  height: 4px;
+  background-color: var(--primary);
+  border: 0;
+}
+
+.hero__text {
+  padding-top: 80px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--white);
 }
