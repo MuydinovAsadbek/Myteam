@@ -351,8 +351,9 @@ body {
 
 .success__item-img {
   position: absolute;
-  top: -142px;
+  top: -140px;
   left: 142px;
+  z-index: -1;
 }
 
 .success__thought-wrapper {
