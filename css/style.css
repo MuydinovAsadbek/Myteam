@@ -903,6 +903,8 @@ border-bottom: 2px solid var(--coral);
 
 .site-footer__text {
   margin: 0;
+  font-size: 15px;
+  line-height: 25px;
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -947,6 +949,10 @@ border-bottom: 2px solid var(--coral);
 }
 
 .social-wrapper__info {
+  margin: 0;
   margin-top: 56px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
   color: rgba(255, 255, 255, 0.5);
 }
