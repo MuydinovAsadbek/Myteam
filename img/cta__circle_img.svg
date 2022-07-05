@@ -1,0 +1,7 @@
+<svg width="200" height="163" viewBox="0 0 200 163" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="cta__circle_img">
+<rect id="Rectangle" x="100" y="63" width="100" height="100" transform="rotate(-180 100 63)" fill="#2C6269"/>
+<path id="Combined Shape Copy" fill-rule="evenodd" clip-rule="evenodd" d="M100 163C155.228 163 200 118.228 200 63C200 7.77153 155.228 -37 100 -37C44.7715 -37 0 7.77153 0 63C0 118.228 44.7715 163 100 163ZM100 96C118.225 96 133 81.2254 133 63C133 44.7746 118.225 30 100 30C81.7746 30 67 44.7746 67 63C67 81.2254 81.7746 96 100 96Z" fill="#004047"/>
+<path id="Combined Shape" fill-rule="evenodd" clip-rule="evenodd" d="M100 19H0V23H100V19ZM100 27H0V31H100V27ZM0 35H100V39H0V35ZM100 43H0V47H100V43ZM0 51H100V55H0V51ZM100 59H0V63H100V59Z" fill="#F67E7E"/>
+</g>
+</svg>
