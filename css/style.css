@@ -35,6 +35,7 @@ body {
   font-weight: 600;
   background-color: var(--dark-blue);
   color: var(--white);
+  overflow-x: hidden;
 }
 
 /* GLOBAL-BUTTON */
@@ -149,7 +150,7 @@ body {
   padding-top: 56px;
   background-image: url("../img/dick-img.svg");
   background-repeat: no-repeat;
-  background-position:calc(50% + -700px) 53px;
+  background-position:calc(50% + -700px) 125px;
 }
 
 .hero__container {
@@ -501,10 +502,19 @@ body {
 .dating__item {
   position: relative;
   width: 350px;
+  height: 253px;
   padding: 32px 24px 56px 24px;
   margin-bottom: 76px;
   background-color:  #012F34;
   margin-right: 30px;
+}
+
+.dating__item-content {
+  display: block;
+}
+
+.dating__item-content--hidden {
+  display: none;
 }
 
 .dating__item:nth-child(3n) {
@@ -553,7 +563,86 @@ body {
   background-color: var(--coral);
 }
 
+.dating__more-btn:hover {
+  background-color: var(--primary);
+}
+
 .dating__plus-icon {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+
+/* DATING-MORE */
+.dating__hero-more {
+  display: none;
+}
+
+.dating__hero-more--active {
+  display: block;
+}
+
+.dating__hero-more-name {
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  color: var(--primary);
+}
+
+.dating__hero-more-info {
+  width: 254px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--white);
+}
+
+.dating__social-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dating__social-link {
+  display: inline-block;
+  color: var(--white);
+  transition: color 0.3s ease;
+}
+
+.dating__social-link:not(:last-child) {
+  margin-right: 16px;
+}
+
+.dating__social-link:hover {
+  color: var(--coral);
+}
+
+.dating__close-btn {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 145px;
+  bottom: -28px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: var(--primary);
+}
+
+.dating__close-btn:hover {
+  background-color: var(--coral);
+}
+
+.dating__x-icon {
   width: 16px;
   height: 16px;
   object-fit: contain;
